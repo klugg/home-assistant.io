@@ -55,7 +55,8 @@ dummy:
 
 ## Supported protocols
 
-Not all protocols as advertised are enabled on the initial setup of your transceiver. Enabling all protocols is not recommended either. Your 433.92 product not showing in the logs? Visit the RFXtrx website to [download RFXmgmr](http://www.rfxcom.com/epages/78165469.sf/nl_NL/?ObjectPath=/Shops/78165469/Categories/Downloads) and enable the required protocol.
+Not all protocols as advertised are enabled on the initial setup of your transceiver. Enabling all protocols is not recommended either. If your 433.92 product isn't showing in the logs, it's probably because the rfxtrx is not responding to the protocol of your device. So you must enable the required protocol in the Rfxtrx. This can NOT be done in Home Assistant. It's done connected to a windows computer using the tool RFXmgmr, which can be downloaded from the [Rfxtrx website. (http://www.rfxcom.com/epages/78165469.sf/nl_NL/?ObjectPath=/Shops/78165469/Categories/Downloads).
+
 
 ### ser2net
 
